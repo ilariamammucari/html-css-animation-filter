@@ -1,0 +1,33 @@
+.nuvole {
+  width: 700px;
+  height: 480px;
+  background-image: url('https://www.yourinspirationweb.com/example/bg-animato/nuvole.jpg');
+  animation: nuvole 50s linear infinite;
+}
+
+.paesaggio {
+  width: 700px;
+  height: 480px;
+  background-image: url('https://www.yourinspirationweb.com/example/bg-animato/villaggio.png');
+  animation: paesaggio 10s linear infinite;
+}
+
+@keyframes nuvole {
+  0% {
+  background-position: 0 0;
+  }
+
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes paesaggio {
+  0% {
+  background-position: 0 0;
+  }
+
+  100% {
+    background-position: 100% 0;
+  }
+}
